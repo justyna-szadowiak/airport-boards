@@ -1,0 +1,47 @@
+.card {
+  table {
+    width: 90%;
+    background-color: #2B2B2B;
+    border-radius: 25px;
+  }
+
+  th {
+    color: #FFE12E;
+    padding: 5px 15px 5px;
+  }
+
+  td {
+    color: white;
+    padding: 5px 15px 5px;
+    font-family: Roboto;
+    text-transform: uppercase;
+  }
+}
+
+@media all and (max-width: 575px) {}
+
+@media all and (min-width: 576px) and (max-width: 767px) {
+  table {
+    width: 50%;
+  }
+
+  .city {
+    display: none;
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+  table {
+    width: 75%;
+  }
+
+  .city {
+    display: none;
+  }
+}
+
+@media all and (min-width: 992px) and (max-width: 1199px) {
+  table {
+    width: auto;
+  }
+}

@@ -1,9 +1,7 @@
-.card {
-  table {
-    width: 90%;
-    background-color: #2B2B2B;
-    border-radius: 25px;
-  }
+table {
+  width: 100%;
+  background-color: #2B2B2B;
+  align-items: center;
 
   th {
     color: #FFE12E;
@@ -16,32 +14,37 @@
     font-family: Roboto;
     text-transform: uppercase;
   }
+
+  .green {
+    color: #2E7D32
+  }
+
+  .red {
+    color: #D32F2F;
+  }
+
+  .yellow {
+    color: #FFEB3B;
+  }
+
+  .orange {
+    color: #EF6C00;
+  }
 }
 
-@media all and (max-width: 575px) {}
 
-@media all and (min-width: 576px) and (max-width: 767px) {
+.city {
+  display: none;
+}
+
+
+@media all and (min-width: 992px) {
   table {
-    width: 50%;
+    height: auto;
   }
 
   .city {
-    display: none;
-  }
-}
-
-@media all and (min-width: 768px) and (max-width: 991px) {
-  table {
-    width: 75%;
-  }
-
-  .city {
-    display: none;
-  }
-}
-
-@media all and (min-width: 992px) and (max-width: 1199px) {
-  table {
-    width: auto;
+    height: 37px;
+    display: table-cell;
   }
 }

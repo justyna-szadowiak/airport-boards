@@ -1,17 +1,11 @@
-.arrivalBoard {
-  padding: 10px;
+.app {
+  padding: 20px;
   background-color: #2B2B2B;
-
-  mat-card-title {
-    color: #FFE12E;
-  }
 }
 
-.departureBoard {
-  padding: 10px;
-  background-color: #2B2B2B;
-
-  mat-card-title {
-    color: #FFE12E;
-  }
+.title {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  color: #FFE12E;
 }

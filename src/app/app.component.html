@@ -1,13 +1,6 @@
-<mat-card class="arrivalBoard">
-  <mat-card-title>
-    Arrivals
-    <app-table [data]="arrivalsData$ | async"></app-table>
-  </mat-card-title>
-</mat-card>
-<mat-divider></mat-divider>
-<mat-card class="departureBoard">
-  <mat-card-title >
-    Departures
-    <app-table [data]="departuresData$ | async"></app-table>
-  </mat-card-title>
-</mat-card>
+<div class="app">
+  <h1 class="title">Arrivals</h1>
+  <app-table [data]="arrivalsData$ | async"></app-table>
+  <h1 class="title">Departures</h1>
+  <app-table [data]="departuresData$ | async"></app-table>
+</div>

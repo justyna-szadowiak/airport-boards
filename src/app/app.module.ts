@@ -7,8 +7,6 @@ import { TableComponent } from './table/table.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatTableModule} from '@angular/material/table';
 import {MatCardModule} from '@angular/material/card';
-import {MatGridListModule} from '@angular/material/grid-list';
-import {MatDividerModule} from '@angular/material/divider';
 
 @NgModule({
   declarations: [
@@ -20,9 +18,7 @@ import {MatDividerModule} from '@angular/material/divider';
     AppRoutingModule,
     BrowserAnimationsModule,
     MatTableModule,
-    MatCardModule,
-    MatGridListModule,
-    MatDividerModule
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
